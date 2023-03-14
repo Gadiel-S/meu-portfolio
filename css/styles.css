@@ -1,0 +1,143 @@
+/* Estilos Globais
+-------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: lightsteelblue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    margin: 5px;
+    line-height: 1.25;
+}
+.alinhar {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+img {
+    width: 300px;
+}
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+.lista li {
+    display: inline-block;
+    padding: 10px;
+}
+.lista img {
+    width: 50px;
+}
+
+
+/* Sobre / Perfil
+-------------------------------------------*/
+header{
+    background-color: #73c681;
+}
+
+
+/* Projetos / Portfolio
+-------------------------------------------*/
+.portfolio {
+    background-color: #C3D2D5;
+}
+.portfolio h2 {
+    margin-bottom: 25px;
+}
+.projetos {
+    overflow: hidden;
+    padding: 15px 0;
+}
+.projetos h3 {
+    margin-top: 0;
+}
+
+
+/* Minhas linguagens
+-------------------------------------------*/
+.linguagens {
+    background-color: #246C84;
+}
+
+
+/* Principais Soft Skills
+-------------------------------------------*/
+.soft {
+    background-color: #75B09C;
+}
+
+
+/* Minhas Ferramentas
+-------------------------------------------*/
+.ferramentas {
+    background-color: #B8B8D1;
+}
+
+
+/* Informações de Contato
+-------------------------------------------*/
+footer {
+    background-color: #89A7A7;
+    color: whitesmoke;
+}
+.contatos {
+    list-style-type: none;
+    padding: 0;
+}
+.contatos a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
+/* Responsividade
+-------------------------------------------*/
+@media screen and (min-width: 550px) {
+    .projetos img {
+        float: left;
+        margin-right: 20px;
+    }
+    .contatos, .lista {
+        display: flex;
+        justify-content: center;
+    }
+    header, .portfolio, .linguagens, .soft, .ferramentas, footer {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 549px) {
+    h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    h1, h2 {
+        line-height: 1;
+    }
+    .contatos a {
+        padding: 5px;
+    }
+    .lista li {
+        padding: 5px;
+    }
+}
