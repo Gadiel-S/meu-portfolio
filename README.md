@@ -4,8 +4,7 @@ Esse é o meu site pessoal com meu portfolio contendo meus projetos e mais infor
 
 ## Screenshot
 
-![](./images/capa-meu-portfolio1.jpeg)
-![](./images/capa-meu-portfolio2.jpeg)
+![](./images/capa-meu-portfolio.jpeg)
 
 ## Construído com
 
