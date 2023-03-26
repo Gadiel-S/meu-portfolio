@@ -1,17 +1,17 @@
-const button = document.querySelector(".portfolio .mostrar");
-const hidden = document.querySelectorAll(".portfolio .hidden");
-const border = document.querySelector(".portfolio .border");
+const botao = document.querySelector(".portfolio .mostrar");
+const escondido = document.querySelectorAll(".portfolio .escondido");
+const borda = document.querySelector(".portfolio .borda");
 
-button.addEventListener("click", () => {
-    hidden.forEach((project) => {
-        if(project.classList.contains("hidden")) {
-            project.classList.remove("hidden");
-            button.innerHTML = "Mostrar menos";
-            border.style.borderBottom = "1px dashed gray";
+botao.addEventListener("click", () => {
+    escondido.forEach((projeto) => {
+        if(projeto.classList.contains("escondido")) {
+            projeto.classList.remove("escondido");
+            botao.innerHTML = "Mostrar menos";
+            borda.style.borderBottom = "1px dashed gray";
         } else {
-            project.classList.add("hidden");
-            button.innerHTML = "Mostrar mais";
-            border.style.borderBottom = "none";
+            projeto.classList.add("escondido");
+            botao.innerHTML = "Mostrar mais";
+            borda.style.borderBottom = "none";
         }
     })
 })

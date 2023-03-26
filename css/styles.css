@@ -80,10 +80,10 @@ header{
 .projetos h3 {
     margin-top: 0;
 }
-.portfolio .hidden {
+.portfolio .escondido {
     display: none;
 }
-.portfolio .border {
+.portfolio .borda {
     border-bottom: none;
 }
 .portfolio .mostrar {
