@@ -18,5 +18,6 @@ Esse é o meu site pessoal com meu portfolio contendo meus projetos e mais infor
 ## Links
 
 - Link do site: (https://gadiel-s.github.io/meu-portfolio/)
+- LinkedIn: (https://www.linkedin.com/in/gadielsouzafrontend/)
 - Github: (https://github.com/Gadiel-S)
 - Frontend Mentor - [@Gadiel-S](https://www.frontendmentor.io/profile/Gadiel-S)
