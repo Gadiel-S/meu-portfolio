@@ -80,6 +80,21 @@ header{
 .projetos h3 {
     margin-top: 0;
 }
+.portfolio .hidden {
+    display: none;
+}
+.portfolio .border {
+    border-bottom: none;
+}
+.portfolio .mostrar {
+    width: 50%;
+    color: white;
+    background-color: #202A25;
+    border: none;
+    padding: 0.35rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
 
 
 /* Minhas linguagens
