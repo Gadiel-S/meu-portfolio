@@ -53,7 +53,8 @@ img {
 /* Sobre / Perfil
 -------------------------------------------*/
 header{
-    background-color: #73c681;
+    background-color: #384E77;
+    color: whitesmoke;
 }
 
 
@@ -68,6 +69,13 @@ header{
 .projetos {
     overflow: hidden;
     padding: 15px 0;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px dashed gray;
+}
+.alinhar > .projetos:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 .projetos h3 {
     margin-top: 0;
@@ -113,9 +121,18 @@ footer {
 
 /* Responsividade
 -------------------------------------------*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 805px) {
     .projetos img {
         float: left;
+    }
+}
+@media screen and (max-width: 805px) {
+    .projetos h3 {
+        margin-top: 1rem;
+    }
+}
+@media screen and (min-width: 550px) {
+    .projetos img {
         margin-right: 20px;
     }
     .contatos, .lista {
