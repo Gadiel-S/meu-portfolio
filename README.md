@@ -1,6 +1,6 @@
 # Site Pessoal/Portfolio
 
-Esse é o meu site pessoal com meu portfolio contendo meus projetos e mais informações sobre mim
+Esse é o meu site pessoal com meu portfolio contendo meus projetos e mais informações sobre mim.
 
 ## Screenshot
 
