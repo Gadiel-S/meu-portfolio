@@ -95,6 +95,10 @@ header{
     cursor: pointer;
     border-radius: 1rem;
 }
+.portfolio .mostrar:hover {
+    background-color: white;
+    color: #202A25;
+}
 
 
 /* Minhas linguagens
