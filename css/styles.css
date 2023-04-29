@@ -101,9 +101,9 @@ header{
 }
 
 
-/* Minhas linguagens
+/* Tecnologias
 -------------------------------------------*/
-.linguagens {
+.tecnologias {
     background-color: #246C84;
 }
 
@@ -111,16 +111,8 @@ header{
 /* Principais Soft Skills
 -------------------------------------------*/
 .soft {
-    background-color: #75B09C;
+    background-color: #1888ad;
 }
-
-
-/* Minhas Ferramentas
--------------------------------------------*/
-.ferramentas {
-    background-color: #B8B8D1;
-}
-
 
 /* Informações de Contato
 -------------------------------------------*/
@@ -135,6 +127,7 @@ footer {
 .contatos a {
     padding: 15px;
     display: inline-block;
+    text-decoration: none;
 }
 
 
@@ -158,7 +151,7 @@ footer {
         display: flex;
         justify-content: center;
     }
-    header, .portfolio, .linguagens, .soft, .ferramentas, footer {
+    header, .portfolio, .tecnologias, .soft, footer {
         text-align: center;
     }
 }
