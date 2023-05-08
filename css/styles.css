@@ -56,6 +56,18 @@ header{
     background-color: #384E77;
     color: whitesmoke;
 }
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.links .linkedin {
+    width: 2.5rem;
+}
+.links .github {
+    width: 2.5rem;
+}
 
 
 /* Projetos / Portfolio
