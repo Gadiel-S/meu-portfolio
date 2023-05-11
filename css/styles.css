@@ -64,9 +64,17 @@ header{
 }
 .links .linkedin {
     width: 2.5rem;
+    transition: 0.2s;
+}
+.links .linkedin:hover {
+    transform: scale(1.2);
 }
 .links .github {
     width: 2.5rem;
+    transition: 0.2s;
+}
+.links .github:hover {
+    transform: scale(1.2);
 }
 
 
