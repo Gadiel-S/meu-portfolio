@@ -42,6 +42,9 @@ img {
     padding: 0;
 }
 .lista li {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 1.25rem;
     display: inline-block;
     padding: 10px;
 }
