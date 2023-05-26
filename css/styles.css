@@ -136,13 +136,14 @@ header{
 -------------------------------------------*/
 .tecnologias {
     background-color: #246C84;
+    min-height: 15rem;
 }
-
 
 /* Principais Soft Skills
 -------------------------------------------*/
 .soft {
     background-color: #1888ad;
+    min-height: 13rem;
 }
 
 /* Informações de Contato
@@ -150,6 +151,7 @@ header{
 footer {
     background-color: #89A7A7;
     color: whitesmoke;
+    min-height: 12rem;
 }
 .contatos {
     list-style-type: none;
